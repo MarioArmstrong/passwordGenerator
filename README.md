@@ -2,6 +2,6 @@
 
 GitHub deploy link: https://marioarmstrong.github.io/passwordGenerator/
 
-The password generator is not finished. It will have to be resubmmited for a better grade later. Currently it prompts you with the question "how many characters do you want?", which in turn creates a password according to your response. The downside is I haven't been able to get the button to create the prompt to pop up, so the prompt pops up when you first acces the page.
+The full functionality of the generate button click is working now. Once the button is click the question prompts populate the screen, and the truthiness of the answers will affect the password that is generated.
 
-Also, I only have one question prompt on the page so the user cannot tailor their password beyond the amount of characters.
+The one bug that still remains is the refresh of the page when trying to run newly generated passwords. At the moment, when you click the button again the new password is tacked onto the existing password. I thought that assigning the empty string at the beginning of the function would clear out what was there before, but it did not work. This will need to be addressed and fixed for the next submission.
